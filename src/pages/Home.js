@@ -1,13 +1,13 @@
 import { mains } from "../helpers/mainLists";
 import ProjectTwo from "../components/project-two/ProjectTwo";
 import Header from "../components/header/Header";
-import slide1 from "./../styles/images/slide1.png";
-import slide2 from "./../styles/images/slide2.png";
-import slide3 from "./../styles/images/slide3.png";
-import n1 from "./../styles/img/n1.svg";
-import n2 from "./../styles/img/n2.svg";
-import n3 from "./../styles/img/n3.svg";
-import n4 from "./../styles/img/n4.svg";
+// import slide1 from "./../styles/images/slide1.png";
+// import slide2 from "./../styles/images/slide2.png";
+// import slide3 from "./../styles/images/slide3.png";
+// import n1 from "./../styles/img/n1.svg";
+// import n2 from "./../styles/img/n2.svg";
+// import n3 from "./../styles/img/n3.svg";
+// import n4 from "./../styles/img/n4.svg";
 
 const Home = () => {
   return (

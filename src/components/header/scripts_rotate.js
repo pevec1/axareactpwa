@@ -1,8 +1,8 @@
 import "./../../styles/styles.css";
-import React, { Component} from "react";
-import ReactDOM from "react-dom";
-import loader from "./loader";
-import $ from "jquery";
+import React from "react";
+//import ReactDOM from "react-dom";
+//import loader from "./loader";
+//import $ from "jquery";
 import logo from "./../../styles/ima/logo.png"
 
 class Rotate extends React.Component {
@@ -56,7 +56,7 @@ class Rotate extends React.Component {
       }, 500);
     }, 3000);
     setTimeout(() => {
-      let g = 1;
+      //let g = 1;
     });
 
     let canvas = document.getElementById("canvas");

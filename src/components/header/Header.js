@@ -3,16 +3,16 @@ import "./../../styles/styles.css";
 import React from "react";
 
 import Group56 from "./../../styles/img/Group56.svg";
-import logo from "./../../styles/ima/logo.png";
+//import logo from "./../../styles/ima/logo.png";
 import analyse1 from "./../../styles/img/analyse1.png";
-import whatsapp from "./whatsapp.png";
-import telegram from "./telegram.png";
+//import whatsapp from "./whatsapp.png";
+//import telegram from "./telegram.png";
 import Rotate from "./scripts_rotate";
 
 
 const Header = () => {
   const [width, setWidth] = React.useState(window.innerWidth);
-  const breakpoint1 = 320;
+  //const breakpoint1 = 320;
   const breakpoint2 = 800;
   React.useEffect(() => {
     const handleResizeWindow = () => setWidth(window.innerWidth);

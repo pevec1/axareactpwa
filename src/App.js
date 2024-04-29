@@ -8,15 +8,15 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Home";
 import Footer from "./pages/Footer";
 import Navmobile from "./components/navmobile/Navmobile";
-import Header from "./components/header/Header";
+//import Header from "./components/header/Header";
 import Works from "./pages/Works";
-import Reacts from "./pages/Reacts";
+//import Reacts from "./pages/Reacts";
 import Contacts from "./pages/Contacts";
 import Aboutus from "./pages/Aboutus";
 
 function App() {
   const [width, setWidth] = React.useState(window.innerWidth);
-  const breakpoint1 = 320;
+  //const breakpoint1 = 320;
   const breakpoint2 = 1000;
   React.useEffect(() => {
     const handleResizeWindow = () => setWidth(window.innerWidth);

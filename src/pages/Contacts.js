@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react/jsx-no-target-blank */
 import whatsapp from "./../components/header/whatsapp.png";
 import telegram from "./../components/header/telegram.png";
 

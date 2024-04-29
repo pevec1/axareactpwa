@@ -1,5 +1,5 @@
 import ProjectTwo from "../components/project-two/ProjectTwo";
-import Project from "../components/project/Project";
+//import Project from "../components/project/Project";
 import { projects } from "../helpers/projectsLists";
 
 const Works = () => {

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import "./../../styles/styles.css";
 import "./../../styles/styles.scss";
 import * as React from 'react';
@@ -8,21 +9,21 @@ import MenuItem from '@mui/material/MenuItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
+//import Typography from '@mui/material/Typography';
 import Tooltip from '@mui/material/Tooltip';
 import PersonAdd from '@mui/icons-material/PersonAdd';
 import Link from "@mui/material/Link";
 //import Settings from '@mui/icons-material/Settings';
-import Logout from '@mui/icons-material/Logout';
+//import Logout from '@mui/icons-material/Logout';
 import axamobile from "./../../styles/img/axamobile.png";
-import MyClass from "./../myclass/MyClass";
-import { Home } from "react-feather";
-import { MessageSquare } from "react-feather";
-import { User } from "react-feather";
-import { BarChart } from "react-feather";
-import { Archive } from "react-feather";
-import { HelpCircle } from "react-feather";
-import { Settings } from "react-feather";
+// import MyClass from "./../myclass/MyClass";
+// import { Home } from "react-feather";
+// import { MessageSquare } from "react-feather";
+// import { User } from "react-feather";
+// import { BarChart } from "react-feather";
+// import { Archive } from "react-feather";
+// import { HelpCircle } from "react-feather";
+// import { Settings } from "react-feather";
 
 
 export default function AccountMenu() {
@@ -35,8 +36,8 @@ export default function AccountMenu() {
     setAnchorEl(null);
   };
   //const feather = require("feather-icons");
-   const [showResults, setShowResults] = React.useState(false);
-   const onClick = () => setShowResults(!showResults);
+   //const [showResults, setShowResults] = React.useState(false);
+   //const onClick = () => setShowResults(!showResults);
    return (
       <React.Fragment>
         {/* <Box
