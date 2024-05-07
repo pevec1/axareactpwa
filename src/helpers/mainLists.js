@@ -4,6 +4,7 @@ import slider001 from "./../styles/images/slider001.png";
 import slider002 from "./../styles/images/slider002.png";
 import slider003 from "./../styles/images/slider003.png";
 import slider004 from "./../styles/images/slider004.png";
+import slider005 from "./../styles/images/slider005.png";
 
 const mains = [
   {
@@ -17,6 +18,12 @@ const mains = [
     img: slide2,
     skills: "проект на php и js",
     link: "https://www.greatwallzap.ru",
+  },
+  {
+    title: "Заметки",
+    img: slider005,
+    skills: "чат на react.js",
+    link: "https://crudnote.netlify.app/",
   },
   {
     title: "Filter-ex",
