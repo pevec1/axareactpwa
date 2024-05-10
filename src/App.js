@@ -13,6 +13,7 @@ import Works from "./pages/Works";
 //import Reacts from "./pages/Reacts";
 import Contacts from "./pages/Contacts";
 import Aboutus from "./pages/Aboutus";
+import NotFound from "./pages/NotFound";
 
 function App() {
   const [width, setWidth] = React.useState(window.innerWidth);
@@ -44,6 +45,8 @@ function App() {
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
           </Routes>
+
+          <Route path="" component={NotFound} />
         </Router>
         <Footer />
       </div>
@@ -65,6 +68,8 @@ function App() {
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
           </Routes>
+
+          <Route path="" component={NotFound} />
         </Router>
         <Footer />
       </div>
