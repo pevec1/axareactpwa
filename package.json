@@ -1,7 +1,7 @@
 {
   "name": "axareactpwa.ru",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://axacode.ru",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
