@@ -44,9 +44,11 @@ function App() {
             {/* <Route path="/reacts" element={<Reacts />} /> */}
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
+        <Route path="" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
           </Routes>
 
-          <Route path="" component={NotFound} />
+          
         </Router>
         <Footer />
       </div>
@@ -67,9 +69,11 @@ function App() {
             {/* <Route path="/reacts" element={<Reacts />} /> */}
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
+        <Route path="" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
           </Routes>
 
-          <Route path="" component={NotFound} />
+          
         </Router>
         <Footer />
       </div>
