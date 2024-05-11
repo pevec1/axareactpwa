@@ -5,6 +5,7 @@ import slider002 from "./../styles/images/slider002.png";
 import slider003 from "./../styles/images/slider003.png";
 import slider004 from "./../styles/images/slider004.png";
 import slider005 from "./../styles/images/slider005.png";
+import slider006 from "./../styles/images/slider006.png";
 
 const mains = [
   {
@@ -48,6 +49,12 @@ const mains = [
     img: slider004,
     skills: "проект на react.js",
     link: "https://pevec1.github.io/layouts/",
+  },
+  {
+    title: "Задачи js+php",
+    img: slider006,
+    skills: "",
+    link: "https://zadachi.good-cms.ru/",
   },
 ];
 

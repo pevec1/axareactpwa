@@ -54,7 +54,37 @@ const projects = [
     title: "Биржа / курсовая Нетологии",
     img: slide6,
     skills: "",
-    link: "https://netcoin.axacode.ru",
+    link: "",
+  },
+    {
+    title: "Игра",
+    img: slide16,
+    skills: "",
+    link: "https://pevec1.github.io/js1-diplom/",
+  },
+  {
+    title: "Мировые часы",
+    img: slide17,
+    skills: "проект на react.js",
+    link: "https://axawatches.netlify.app/",
+  },
+  {
+    title: "Calendar",
+    img: slide18,
+    skills: "",
+    link: "https://axacalend.netlify.app/",
+  },
+  {
+    title: "Zadachi",
+    img: slide19,
+    skills: "",
+    link: "https://zadachi.good-cms.ru/",
+  },
+  {
+    title: "To card, To list",
+    img: slide20,
+    skills: "проект на react.js",
+    link: "https://pevec1.github.io/layouts/",
   },
   {
     title: "Project 7",
@@ -110,36 +140,7 @@ const projects = [
     skills: "",
     link: "",
   },
-  {
-    title: "Игра",
-    img: slide16,
-    skills: "",
-    link: "https://pevec1.github.io/js1-diplom/",
-  },
-  {
-    title: "Мировые часы",
-    img: slide17,
-    skills: "проект на react.js",
-    link: "https://axawatches.netlify.app/",
-  },
-  {
-    title: "Calendar",
-    img: slide18,
-    skills: "",
-    link: "https://axacalend.netlify.app/",
-  },
-  {
-    title: "Zadachi",
-    img: slide19,
-    skills: "",
-    link: "https://zadachi.axacode.ru",
-  },
-  {
-    title: "To card, To list",
-    img: slide20,
-    skills: "проект на react.js",
-    link: "https://pevec1.github.io/layouts/",
-  },
+
 ];
 
 export { projects };
