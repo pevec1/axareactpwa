@@ -117,16 +117,16 @@ const projects = [
     link: "https://pevec1.github.io/js1-diplom/",
   },
   {
-    title: "Calculator",
+    title: "Мировые часы",
     img: slide17,
-    skills: "",
-    link: "https://calc.axacode.ru",
+    skills: "проект на react.js",
+    link: "https://axawatches.netlify.app/",
   },
   {
     title: "Calendar",
     img: slide18,
     skills: "",
-    link: "https://react.axacode.ru",
+    link: "https://axacalend.netlify.app/",
   },
   {
     title: "Zadachi",

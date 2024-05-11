@@ -32,16 +32,16 @@ const mains = [
     link: "https://pevec1.github.io/filter-ex/",
   },
   {
-    title: "Calculator",
+    title: "Мировые часы",
     img: slider002,
     skills: "проект на react.js",
-    link: "https://calc.axacode.ru",
+    link: "https://axawatches.netlify.app/",
   },
   {
-    title: "Calendar",
+    title: "Calendar-vite",
     img: slider003,
     skills: "проект на react.js",
-    link: "https://react.axacode.ru",
+    link: "https://axacalend.netlify.app/",
   },
   {
     title: "To card, To list",
