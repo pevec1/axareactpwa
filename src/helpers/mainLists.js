@@ -6,6 +6,7 @@ import slider003 from "./../styles/images/slider003.png";
 import slider004 from "./../styles/images/slider004.png";
 import slider005 from "./../styles/images/slider005.png";
 import slider006 from "./../styles/images/slider006.png";
+import slider007 from "./../styles/images/slider007.png";
 
 const mains = [
   {
@@ -31,6 +32,12 @@ const mains = [
     img: slider001,
     skills: "проект на react.js",
     link: "https://pevec1.github.io/filter-ex/",
+  },
+  {
+    title: "Use-effect",
+    img: slider007,
+    skills: "проект на react.js",
+    link: "https://use-effect-vite.netlify.app/",
   },
   {
     title: "Мировые часы",
