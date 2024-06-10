@@ -7,6 +7,7 @@ import slider004 from "./../styles/images/slider004.png";
 import slider005 from "./../styles/images/slider005.png";
 import slider006 from "./../styles/images/slider006.png";
 import slider007 from "./../styles/images/slider007.png";
+import slider008 from "./../styles/images/slider008.png";
 
 const mains = [
   {
@@ -25,7 +26,7 @@ const mains = [
     title: "Заметки",
     img: slider005,
     skills: "чат на react.js",
-    link: "https://crudnote.netlify.app/",
+    link: "https://pevec1.github.io/crud/",
   },
   {
     title: "Filter-ex",
@@ -37,13 +38,13 @@ const mains = [
     title: "Use-effect",
     img: slider007,
     skills: "проект на react.js",
-    link: "https://use-effect-vite.netlify.app/",
+    link: "https://pevec1.github.io/use-effect/",
   },
   {
     title: "Мировые часы",
     img: slider002,
     skills: "проект на react.js",
-    link: "https://axawatches.netlify.app/",
+    link: "https://pevec1.github.io/watches/",
   },
   {
     title: "Calendar-vite",
@@ -56,6 +57,12 @@ const mains = [
     img: slider004,
     skills: "проект на react.js",
     link: "https://pevec1.github.io/layouts/",
+  },
+  {
+    title: "JsonFetchHook",
+    img: slider008,
+    skills: "проект на react.js",
+    link: "https://pevec1.github.io/useJsonFetch/",
   },
   {
     title: "Задачи js+php",
