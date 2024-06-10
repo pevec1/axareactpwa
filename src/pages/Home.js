@@ -1,6 +1,7 @@
 import { mains } from "../helpers/mainLists";
 import ProjectTwo from "../components/project-two/ProjectTwo";
 import Header from "../components/header/Header";
+import { v4 as uuid } from "uuid";
 // import slide1 from "./../styles/images/slide1.png";
 // import slide2 from "./../styles/images/slide2.png";
 // import slide3 from "./../styles/images/slide3.png";
@@ -10,6 +11,7 @@ import Header from "../components/header/Header";
 // import n4 from "./../styles/img/n4.svg";
 
 const Home = () => {
+   const unique_id = uuid();
   return (
     <>
       <Header />
@@ -83,7 +85,7 @@ const Home = () => {
                       {mains.map((project, index) => {
                         return (
                           <ProjectTwo
-                            key={index}
+                            key={unique_id}
                             title={project.title}
                             img={project.img}
                             skills={project.skills}
