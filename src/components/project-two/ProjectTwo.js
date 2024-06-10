@@ -1,6 +1,6 @@
 import "./../../styles/styles.css";
 
-const ProjectTwo = ({title, img, skills, link}) => {
+const ProjectTwo = ({key,title, img, skills, link}) => {
     return (
       // <div className="carousel-item">
       //   <br/>
@@ -10,7 +10,7 @@ const ProjectTwo = ({title, img, skills, link}) => {
       //   <a target="_blank" href={link} rel="noreferrer">{link}</a>
       //   <br/><br/>
       // </div>
-      <div className="card2">
+      <div key={key} className="card2">
         <div className="poster">
           <img src={img} alt="wallpaper img" />
         </div>
