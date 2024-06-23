@@ -27,6 +27,9 @@ const Navbar = () => {
       <li>
         <a href="/contacts">Контакты</a>
       </li>
+      <li>
+        <a href="/certs">Дипломы</a>
+      </li>
       <li style={{ marginTop: 20 + "px" }}></li>
       <li>
         <a href="https://www.aharenkov.ru/auth" className="btn lk">

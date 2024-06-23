@@ -10,7 +10,7 @@ import Footer from "./pages/Footer";
 import Navmobile from "./components/navmobile/Navmobile";
 //import Header from "./components/header/Header";
 import Works from "./pages/Works";
-//import Reacts from "./pages/Reacts";
+import Reacts from "./pages/Reacts";
 import Contacts from "./pages/Contacts";
 import Aboutus from "./pages/Aboutus";
 import NotFound from "./pages/NotFound";
@@ -41,9 +41,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<Aboutus />} />
-            {/* <Route path="/reacts" element={<Reacts />} /> */}
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
+            <Route path="/certs" element={<Reacts />} />
         <Route path="" element={<NotFound />} />
         <Route path="*" element={<NotFound />} />
           </Routes>
@@ -66,9 +66,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<Aboutus />} />
-            {/* <Route path="/reacts" element={<Reacts />} /> */}
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
+            <Route path="/certs" element={<Reacts />} />
         <Route path="" element={<NotFound />} />
         <Route path="*" element={<NotFound />} />
           </Routes>
