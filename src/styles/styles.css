@@ -1399,7 +1399,15 @@ padding: 0;     */
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 }
-
+.card3 {
+  display: flex;
+  flex-direction: row;
+  width: 270px;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: start;
+}
 .details h1 {
     font-size: 1.0em;
     margin-bottom: 5px;
