@@ -1,55 +1,62 @@
-// import slider001 from "https://drive.google.com/file/d/1_vVkocHCGIJXnm0eiFkLq9qQp5zZnq9f/preview";
-// import slider002 from "https://drive.google.com/file/d/1PrDtPn2DxJUjT5N-FIZhhg30xBeLjynk/preview";
-// import slider003 from "https://drive.google.com/file/d/1lSES0TDwVt9W30acgnT6hy0149puetXN/preview";
-// import slider004 from "https://drive.google.com/file/d/1zdQyJhYHu3sXncAIVXgCi3nxBvPffmJr/preview";
-// import slider005 from "https://drive.google.com/file/d/1czDAjOfXbJO4R9TyH8ZhBxlSk_8-d6wf/preview";
-// import slider006 from "https://drive.google.com/file/d/1QhQJ9Vxb1ARXls6Do5g29ESkmmYDKvbc/preview";
-// import slider007 from "https://drive.google.com/file/d/16Dh1NCcC-VkajVtkWYbX6nNrpujUxMMo/preview";
+import slider001 from "../styles/pdfs/диплом МИФИ.png";
+import slider002 from "../styles/pdfs/Диплом JS Нетология_Страница_1.png";
+import slider003 from "../styles/pdfs/Диплом РЭУ Плеханова.png";
+import slider004 from "../styles/pdfs/certificate GIT Netology.png";
+import slider005 from "../styles/pdfs/certificate JS-cp-2 Netology.png";
+import slider006 from "../styles/pdfs/certificate React.js Netology 2.png";
+import slider007 from "../styles/pdfs/certificate React.js Netology.png";
+import slider008 from "../styles/pdfs/Диплом JS Нетология_Страница_2.png";
 
 
 const certs = [
-  // {
-  //   title: "Диплом МИФИ",
-  //   img: slider001,
-  //   skills: "",
-  //   link: "",
-  // },
-  // {
-  //   title: "Диплом JS Нетология",
-  //   img: slider002,
-  //   skills: "",
-  //   link: "",
-  // },
-  // {
-  //   title: "Диплом РЭУ Плеханова",
-  //   img: slider003,
-  //   skills: "",
-  //   link: "",
-  // },
-  // {
-  //   title: "certificate GIT Netology",
-  //   img: slider004,
-  //   skills: "",
-  //   link: "",
-  // },
-  // {
-  //   title: "certificate JS-cp-2 Netology",
-  //   img: slider005,
-  //   skills: "",
-  //   link: "",
-  // },
-  // {
-  //   title: "certificate React.js Netology 2",
-  //   img: slider006,
-  //   skills: "",
-  //   link: "",
-  // },
-  // {
-  //   title: "certificate React.js Netology",
-  //   img: slider007,
-  //   skills: "",
-  //   link: "",
-  // },
+  {
+    title: "Диплом МИФИ",
+    img: slider001,
+    skills: "",
+    link: "",
+  },
+  {
+    title: "certificate React.js Netology 2",
+    img: slider006,
+    skills: "",
+    link: "",
+  },
+  {
+    title: "certificate React.js Netology",
+    img: slider007,
+    skills: "",
+    link: "",
+  },
+  {
+    title: "certificate JS-cp-2 Netology",
+    img: slider005,
+    skills: "",
+    link: "",
+  },
+  {
+    title: "certificate GIT Netology",
+    img: slider004,
+    skills: "",
+    link: "",
+  },
+  {
+    title: "Диплом JS Нетология (страница 1)",
+    img: slider002,
+    skills: "",
+    link: "",
+  },
+  {
+    title: "Диплом JS Нетология (страница 2)",
+    img: slider008,
+    skills: "",
+    link: "",
+  },
+  {
+    title: "Диплом РЭУ Плеханова",
+    img: slider003,
+    skills: "",
+    link: "",
+  },
 ];
 
 export { certs };

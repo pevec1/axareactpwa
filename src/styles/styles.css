@@ -660,7 +660,7 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   justify-content: center;
 }
 .card2 {
@@ -673,6 +673,7 @@ body {
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 }
 .card3 {
+    width: 720px;
     text-align: center;
 }
 
@@ -894,7 +895,10 @@ body {
     background-position-x: right;
     background-position-y: bottom;
   }
-
+.card3 {
+  width: 720px;
+  text-align: center;
+}
   slider {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -1096,7 +1100,10 @@ padding: 0;     */
     background-position-x: right;
     background-position-y: bottom;
   }
-
+.card3 {
+  width: 720px;
+  text-align: center;
+}
   slider {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -1404,6 +1411,7 @@ padding: 0;     */
 }
 .card3 {
   width: 270px;
+  max-width: 80%;
   text-align: center;
 }
 .details h1 {

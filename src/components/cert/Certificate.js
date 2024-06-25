@@ -3,14 +3,9 @@ import "./../../styles/styles.css";
 
 const Certificate = ({ key, title, img, skills, link }) => {
   return (
-    <div>
-         <h5 className="header-title">{title}</h5>
-      <iframe
-        src="https://drive.google.com/file/d/1_vVkocHCGIJXnm0eiFkLq9qQp5zZnq9f/preview"
-        width="640"
-        height="480"
-        allow="autoplay"
-      ></iframe>
+    <div key={key}>
+         <h3 className="header-title">{title}</h3>
+        <img src={img} className="card3" alt="..." />
       <br />
       </div>
   );
