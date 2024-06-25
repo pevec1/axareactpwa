@@ -2,7 +2,7 @@ import "./styles/styles.css";
 
 import React from "react";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Home";
@@ -38,13 +38,13 @@ function App() {
             </div>
           </div>
           
-          <Routes>
+          <Router>
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<Aboutus />} />
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/certs" element={<Certs />} />
-          </Routes>
+          </Router>
 
           
         </Router>
@@ -61,13 +61,13 @@ function App() {
             </div>
           </div>
 
-          <Routes>
+          <Router>
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<Aboutus />} />
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/certs" element={<Certs />} />
-          </Routes>
+          </Router>
 
           
         </Router>
