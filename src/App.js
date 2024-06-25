@@ -10,10 +10,10 @@ import Footer from "./pages/Footer";
 import Navmobile from "./components/navmobile/Navmobile";
 //import Header from "./components/header/Header";
 import Works from "./pages/Works";
-import Reacts from "./pages/Reacts";
+import Certs from "./pages/Certs";
 import Contacts from "./pages/Contacts";
 import Aboutus from "./pages/Aboutus";
-import NotFound from "./pages/NotFound";
+//import NotFound from "./pages/NotFound";
 
 function App() {
   const [width, setWidth] = React.useState(window.innerWidth);
@@ -43,9 +43,7 @@ function App() {
             <Route path="/aboutus" element={<Aboutus />} />
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
-            <Route path="/certs" element={<Reacts />} />
-        <Route path="" element={<NotFound />} />
-        <Route path="*" element={<NotFound />} />
+            <Route path="/certs" element={<Certs />} />
           </Routes>
 
           
@@ -68,9 +66,7 @@ function App() {
             <Route path="/aboutus" element={<Aboutus />} />
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
-            <Route path="/certs" element={<Reacts />} />
-        <Route path="" element={<NotFound />} />
-        <Route path="*" element={<NotFound />} />
+            <Route path="/certs" element={<Certs />} />
           </Routes>
 
           
