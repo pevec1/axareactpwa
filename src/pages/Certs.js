@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/iframe-has-title */
 import Certificate from "../components/cert/Certificate";
 //import Project from "../components/project/Project";
 import { certs } from "../helpers/certsLists";
