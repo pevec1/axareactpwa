@@ -2,7 +2,7 @@ import "./styles/styles.css";
 
 import React from "react";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Home";
@@ -30,7 +30,6 @@ function App() {
   }, []);
   if (width > breakpoint2) {
     return (
-      <Router>
         <div className="App">
           <div className="container">
             <div className="column">
@@ -48,11 +47,9 @@ function App() {
 
           <Footer />
         </div>
-      </Router>
     );
   } else if (width < breakpoint2 && width > 0) {
     return (
-      <Router>
         <div className="App">
           <div className="container">
             <div className="row">
@@ -70,8 +67,8 @@ function App() {
 
           <Footer />
         </div>
-      </Router>
-    );
+    )
+  
   }
 }
 
