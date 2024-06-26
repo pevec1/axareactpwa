@@ -2,7 +2,7 @@ import "./styles/styles.css";
 
 import React from "react";
 
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Home";
@@ -30,49 +30,47 @@ function App() {
   }, []);
   if (width > breakpoint2) {
     return (
-      <div className="App">
-        <Router>
+      <Router>
+        <div className="App">
           <div className="container">
             <div className="column">
               <Navbar />
             </div>
           </div>
-          
-          <Router>
+
+          <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<Aboutus />} />
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/certs" element={<Certs />} />
-          </Router>
+          </Routes>
 
-          
-        </Router>
-        <Footer />
-      </div>
+          <Footer />
+        </div>
+      </Router>
     );
   } else if (width < breakpoint2 && width > 0) {
     return (
-      <div className="App">
-        <Router>
+      <Router>
+        <div className="App">
           <div className="container">
             <div className="row">
               <Navmobile />
             </div>
           </div>
 
-          <Router>
+          <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<Aboutus />} />
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/certs" element={<Certs />} />
-          </Router>
+          </Routes>
 
-          
-        </Router>
-        <Footer />
-      </div>
+          <Footer />
+        </div>
+      </Router>
     );
   }
 }
