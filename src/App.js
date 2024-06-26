@@ -17,9 +17,9 @@ import Aboutus from "./pages/Aboutus";
 
 function App() {
   const [width, setWidth] = React.useState(window.innerWidth);
-  const breakpoint1 = 320;
-  //const breakpoint2 = 600;
-  const breakpoint3 = 1000;
+  //const breakpoint1 = 320;
+  const breakpoint2 = 600;
+  //const breakpoint3 = 1000;
   //const breakpoint4 = 1200;
   React.useEffect(() => {
     const handleResizeWindow = () => setWidth(window.innerWidth);
@@ -30,7 +30,7 @@ function App() {
       window.removeEventListener("resize", handleResizeWindow);
     };
   }, []);
-  if (width > breakpoint1) {
+  if (width > breakpoint2) {
     return (
         <div className="App">
           <div className="container">
@@ -50,7 +50,7 @@ function App() {
           <Footer />
         </div>
     );
-  } else if (width < breakpoint3 && width > 0) {
+  } else if (width <= breakpoint2 && width > 0) {
     return (
         <div className="App">
           <div className="container">
