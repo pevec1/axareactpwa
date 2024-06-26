@@ -1,43 +1,43 @@
 import "./../../styles/styles.css";
-
+import { Link } from "react-router-dom";
 import axacode from "./../../styles/img/axacode.png";
 
 const Navbar = () => {
   return (
     <ul className="logos">
       <li>
-        <a href="/">
+        <Link to="/">
           <p className="logo">
             <img src={axacode} alt="AXAcode"></img>
           </p>
-        </a>
+        </Link>
       </li>
       <li>
-        <a href="/aboutus">Обо мне</a>
+        <Link to={"/aboutus"}>Обо мне</Link>
       </li>
       {/* <li>
-        <a href="/reacts">Проекты React</a>
+        <Link to={"/reacts"}>Проекты React</Link>
       </li> */}
       <li>
-        <a href="/works">Проекты</a>
+        <Link to={"/works"}>Проекты</Link>
       </li>
       <li>
-        <a href="https://www.aharenkov.ru/my-creative">Идеи</a>
+        <Link to={"https://www.aharenkov.ru/my-creative"}>Идеи</Link>
       </li>
       <li>
-        <a href="/contacts">Контакты</a>
+        <Link to={"/contacts"}>Контакты</Link>
       </li>
       <li>
-        <a href="/certs">Дипломы</a>
+        <Link to={"/certs"}>Дипломы</Link>
       </li>
       <li style={{ marginTop: 20 + "px" }}></li>
       <li>
-        <a href="https://www.aharenkov.ru/auth" className="btn lk">
+        <Link to={"https://www.aharenkov.ru/auth"} className="btn lk">
           Личный кабинет
-        </a>
-        <a href="/" className="btn logout">
+        </Link>
+        <Link to="/" className="btn logout">
           Выход
-        </a>
+        </Link>
       </li>
     </ul>
   );
