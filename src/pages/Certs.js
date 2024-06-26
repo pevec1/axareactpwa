@@ -10,7 +10,7 @@ const Certs = () => {
       {certs.map((project, index) => {
                   return (
                     <Certificate
-                      id={index}
+                      key={index}
                       title={project.title}
                       img={project.img}
                       skills={project.skills}

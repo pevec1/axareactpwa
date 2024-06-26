@@ -7,7 +7,7 @@ import Group56 from "./../../styles/img/Group56.svg";
 import analyse1 from "./../../styles/img/analyse1.png";
 //import whatsapp from "./whatsapp.png";
 //import telegram from "./telegram.png";
-import Rotate from "./scripts_rotate";
+//import Rotate from "./scripts_rotate";
 
 
 const Header = () => {
@@ -49,7 +49,7 @@ const Header = () => {
               <br />
             </div>
           </div>
-          <Rotate />
+          {/* <Rotate /> */}
           <div className="column" style={{ justifyContent: "flex-start" }}>
              <div className="row">
               <a
@@ -108,7 +108,7 @@ const Header = () => {
                 <span style={{ color: "#7bc0e3" }}> веб-сайт</span>
               </h1>
               <br />
-          <Rotate />
+          {/* <Rotate /> */}
             </div>
           </div>
           <div className="column" style={{ justifyContent: "flex-start" }}>

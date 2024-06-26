@@ -1,22 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom/client";
 //import $ from "jquery";
-
+//import AllRoutes from "./components/routers/AllRoutes";
 import { StyledEngineProvider } from "@mui/material/styles";
-import App from './App';
-import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import reportWebVitals from './reportWebVitals';
+import App from "./App";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
-  {/* <React.StrictMode> */}
+  // <React.StrictMode>
     <StyledEngineProvider injectFirst>
       <App />
     </StyledEngineProvider>
-  {/* </React.StrictMode> */}
-  </BrowserRouter>
+   // {/* </React.StrictMode> */}
 );
 
 // If you want your app to work offline and load faster, you can change

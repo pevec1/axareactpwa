@@ -1,8 +1,8 @@
 import "./../../styles/styles.css";
 
-const Certificate = ({ id, title, img, skills, link }) => {
+const Certificate = ({ title, img, skills, link }) => {
   return (
-    <div key={id}>
+    <div>
          <h3 className="header-title">{title}</h3>
         <img src={img} className="card3" alt="..." />
       <br />
