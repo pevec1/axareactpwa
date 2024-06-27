@@ -12,7 +12,7 @@ import IconButton from '@mui/material/IconButton';
 //import Typography from '@mui/material/Typography';
 import Tooltip from '@mui/material/Tooltip';
 import PersonAdd from '@mui/icons-material/PersonAdd';
-import Link from "@mui/material/Link";
+import { Link } from "react-router-dom";
 //import Settings from '@mui/icons-material/Settings';
 //import Logout from '@mui/icons-material/Logout';
 import axamobile from "./../../styles/img/axamobile.png";
@@ -108,7 +108,7 @@ export default function AccountMenu() {
        ) : null} */}
 
        <Box sx={{ display: "flex", alignItems: "center", textAlign: "center" }}>
-         <Link href="/">
+         <Link to="/">
            <p className="logo">
              <img src={axamobile}></img>
            </p>
@@ -177,22 +177,22 @@ export default function AccountMenu() {
            <ListItemIcon>
              <PersonAdd fontSize="small" />
            </ListItemIcon>
-           <Link href="/aboutus">Обо мне</Link>
+           <Link to={"/aboutus"}>Обо мне</Link>
          </MenuItem>
          {/* <MenuItem onClick={handleClose}>
              <Link href="/reacts">Проекты React</Link>
            </MenuItem> */}
          <MenuItem onClick={handleClose}>
-           <Link href="/works">Проекты</Link>
+           <Link to={"/works"}>Проекты</Link>
          </MenuItem>
          <MenuItem onClick={handleClose}>
-           <Link href="https://www.aharenkov.ru/my-creative">Идеи</Link>
+           <Link to={"https://www.aharenkov.ru/my-creative"}>Идеи</Link>
          </MenuItem>
          <MenuItem onClick={handleClose}>
-           <Link href="/contacts">Контакты</Link>
+           <Link to={"/contacts"}>Контакты</Link>
          </MenuItem>
          <MenuItem onClick={handleClose}>
-           <Link href="/certs">Дипломы</Link>
+           <Link to={"/certs"}>Дипломы</Link>
          </MenuItem>
        </Menu>
      </React.Fragment>

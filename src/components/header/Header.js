@@ -13,7 +13,7 @@ import analyse1 from "./../../styles/img/analyse1.png";
 const Header = () => {
   const [width, setWidth] = React.useState(window.innerWidth);
   //const breakpoint1 = 320;
-  const breakpoint2 = 800;
+  const breakpoint2 = 1000;
   React.useEffect(() => {
     const handleResizeWindow = () => setWidth(window.innerWidth);
     // subscribe to window resize event "onComponentDidMount"
