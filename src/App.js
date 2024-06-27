@@ -12,7 +12,7 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./pages/Footer";
 import Navmobile from "./components/navmobile/Navmobile";
 //import Header from "./components/header/Header";
-//import NotFound from "./pages/NotFound";
+import NotFound from "./pages/NotFound";
 function App() {
   const [width, setWidth] = React.useState(window.innerWidth);
   //const breakpoint1 = 320;
@@ -43,6 +43,7 @@ function App() {
           <Route path="/works" element={<Works />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/certs" element={<Certs />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
 
         <Footer />
@@ -64,6 +65,7 @@ function App() {
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/certs" element={<Certs />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
 
           <Footer />
