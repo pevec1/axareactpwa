@@ -82,74 +82,7 @@ const Navbar = () => {
   )} else {
        return (
          <React.Fragment>
-           {/* <Box
-           sx={{ display: "flex", alignItems: "center", textAlign: "center" }}
-         >
-       <Link href="/">
-         <p className="logo">
-           <img src={axamobile}></img>
-         </p>
-       </Link>
-       <Tooltip title="меню" className="menu-triger" onClick={onClick} />
-       </Box>
-       {showResults ? (
-         <div id="results" className="search-results">
-           <nav className="navbar">
-             <ul className="navbar__menu">
-               <li className="navbar__item">
-                 <a href="/" className="navbar__link">
-                   <Home />
-                   <span>Домой</span>
-                 </a>
-               </li>
-               <li className="navbar__item">
-                 <a
-                   href="https://www.aharenkov.ru/my-creative"
-                   className="navbar__link"
-                 >
-                   <MessageSquare />
-                   <span>Идеи</span>
-                 </a>
-               </li>
-               <li className="navbar__item">
-                 <a href="/aboutus" className="navbar__link">
-                   <User />
-                   <span>Обо мне</span>
-                 </a>
-               </li>
-               <li className="navbar__item">
-                 <a href="/reacts" className="navbar__link">
-                   <BarChart />
-                   <span>Проекты React</span>
-                 </a>
-               </li>
-               <li className="navbar__item">
-                 <a href="/works" className="navbar__link">
-                   <Archive />
-                   <span>Проекты</span>
-                 </a>
-               </li>
-               <li className="navbar__item">
-                 <a href="#" className="navbar__link">
-                   <HelpCircle />
-                   <span>Help</span>
-                 </a>
-               </li>
-               <li className="navbar__item">
-                 <a
-                   href="https://www.aharenkov.ru/auth"
-                   className="navbar__link"
-                 >
-                   <Settings />
-                   <span>Кабинет</span>
-                 </a>
-               </li>
-             </ul>
-           </nav>
-         </div>
-       ) : null} */}
-
-           <Box
+          <Box
              sx={{ display: "flex", alignItems: "center", textAlign: "center" }}
            >
              <Link to="/">
