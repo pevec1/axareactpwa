@@ -3,7 +3,7 @@ import React from 'react'
 export default function Func() {
   return (
     <div>
-     <code>&lt;&quest;php<br/>
+     &lt;&quest;php<br/>
 &sol;&sol; В файле functions&period;php вашей темы или плагина&colon;<br/>
 add&lowbar;action&lpar;&apos;init&apos;&comma; &apos;my&lowbar;plugin&lowbar;session&lowbar;start&apos;&rpar;&semi;<br/>
 function my&lowbar;plugin&lowbar;session&lowbar;start&lpar;&rpar;<br/>
@@ -501,7 +501,7 @@ add&lowbar;shortcode&lpar;&apos;custom&lowbar;login&apos;&comma; &apos;custom&lo
 <br/>
 <br/>
 <br/>
-&quest;&gt;</code>
+&quest;&gt;
     </div>
   );
 }
