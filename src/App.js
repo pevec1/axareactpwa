@@ -11,6 +11,7 @@ import Certs from "./pages/Certs";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./pages/Footer";
 import Func from "./pages/Func";
+import Plug from "./pages/Plug";
 //import Header from "./components/header/Header";
 import NotFound from "./pages/NotFound";
 function App() {
@@ -29,6 +30,7 @@ function App() {
              <Route path="/contacts" element={<Contacts />} />
              <Route path="/certs" element={<Certs />} />
              <Route path="/func" element={<Func />} />
+             <Route path="/Plug" element={<Plug />} />
              <Route path="*" element={<NotFound />} />
            </Routes>
 
