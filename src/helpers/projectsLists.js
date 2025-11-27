@@ -87,10 +87,10 @@ const projects = [
     link: "https://pevec1.github.io/layouts/",
   },
   {
-    title: "Project 7",
+    title: "Project 7 CRUD",
     img: slide7,
-    skills: "",
-    link: "",
+    skills: "проект на react.js",
+    link: "https://aharenkon.github.io/crud/",
   },
   {
     title: "Project 8",

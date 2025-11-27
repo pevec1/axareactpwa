@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  react-pwa-app:
+    # Указывает, что нужно собрать образ из текущей директории с помощью Dockerfile
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
+    container_name: my-react-pwa-container
+
+    # Сопоставление портов: <порт_на_Windows>:<порт_в_контейнере>
+    # Приложение будет доступно на Windows через http://localhost:80
+    ports:
+      - "80:80"
+
+    # Перезапускать контейнер, если он неожиданно упал
+    restart: always
