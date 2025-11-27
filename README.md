@@ -1,6 +1,6 @@
 # Собственный сайт, разработанный на реакте
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project [Preview my React App](https://deploy-preview-1--axacode.netlify.app/).
 
 ## Здесь все скрипты в папке /src
 
