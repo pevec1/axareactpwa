@@ -26,7 +26,7 @@ const mains = [
     title: "Заметки",
     img: slider005,
     skills: "чат на react.js",
-    link: "https://pevec1.github.io/crud/",
+    link: "https://aharenkon.github.io/crud/",
   },
   {
     title: "Filter-ex",
