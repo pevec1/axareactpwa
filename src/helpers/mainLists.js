@@ -44,7 +44,7 @@ const mains = [
     title: "Мировые часы",
     img: slider002,
     skills: "проект на react.js",
-    link: "https://pevec1.github.io/watches/",
+    link: "https://aharenkon.github.io/watches/",
   },
   {
     title: "Calendar-vite",
