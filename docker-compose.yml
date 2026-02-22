@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    container_name: react-pwa
+    restart: always
+
+  nginx-proxy:
+    image: 'jc21/nginx-proxy-manager:latest'
+    container_name: nginx-manager
+    restart: always
+    ports:
+      - '80:80'   # Публичный HTTP
+      - '443:443' # Публичный HTTPS
+      - '81:81'   # Админка менеджера сертификатов
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
