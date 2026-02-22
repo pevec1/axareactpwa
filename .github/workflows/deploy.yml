@@ -16,7 +16,7 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /var/www/my-site # Путь к твоей папке на сервере
+            cd /var/www/my-pwa # Путь к твоей папке на сервере
             git pull origin main
             sudo docker-compose up --build -d
             sudo docker image prune -f # Удаляет старые слои, чтобы не забивать диск
