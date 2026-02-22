@@ -5,7 +5,7 @@ const Footer = () => {
       <footer>
         <div id="head" className="container">
           <br />
-          <h3>AXA React Code 2023 - 2026</h3>
+          <h3>AXA React Code 2023 - 2026...</h3>
           <div>Контакты</div>
 
           <div className="buttons">
