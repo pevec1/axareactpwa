@@ -44,7 +44,7 @@ const mains = [
     title: "Мировые часы",
     img: slider002,
     skills: "проект на react.js",
-    link: "https://aharenkon.github.io/watches/",
+    link: "https://axawatches.netlify.app/",
   },
   {
     title: "Calendar-vite",
