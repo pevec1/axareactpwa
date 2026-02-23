@@ -16,6 +16,8 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /var/www/my-pwa # Путь к твоей папке на сервере
-            git pull origin main
-            docker-compose up --build -d
+            cd /var/www/my-pwa
+            git pull origin main # 1. Останавливаем контейнеры и удаляем их, чтобы освободить порты
+            sudo docker-compose down # 2. Собираем и запускаем заново
+            sudo docker-compose up --build -d # 3. Чистим мусор (старые образы), чтобы диск не переполнился
+            sudo docker image prune -f
