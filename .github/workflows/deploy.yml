@@ -15,6 +15,7 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
+          command_timeout: 30m  # Увеличиваем до 30 минут
           script: |
             cd /var/www/my-pwa
             git pull origin main # 1. Останавливаем контейнеры и удаляем их, чтобы освободить порты
