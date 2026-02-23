@@ -15,4 +15,4 @@ services:
       - '81:81'   # Админка менеджера сертификатов
     volumes:
       - ./data:/data
-      - ./letsencrypt:/etc/letsencrypt
+      - ./letsencrypt:/etc/letsencrypt # Хранение сертификатов Let's Encrypt
